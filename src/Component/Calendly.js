@@ -12,10 +12,30 @@ const Calendly = () => {
           <p style={style.label}>Origine Sounds Records</p>
         </div>
         <div style={style.nav}>
-          <p style={style.navLink}>Accueil</p>
-          <p style={style.navLink}>Tarifs</p>
-          <p style={style.navLink}>Réservations</p>
-          <p style={style.navLink}>Contact</p>
+          <a
+            href="https://origine-sounds-records.jimdosite.com/"
+            style={style.navLink}
+          >
+            Accueil
+          </a>
+          <a
+            href="https://origine-sounds-records.jimdosite.com/tarifs/"
+            style={style.navLink}
+          >
+            Tarifs
+          </a>
+          <a
+            href="https://origine-sounds-records.jimdosite.com/reservations/"
+            style={style.navLink}
+          >
+            Réservations
+          </a>
+          <a
+            href="https://origine-sounds-records.jimdosite.com/contact/"
+            style={style.navLink}
+          >
+            Contact
+          </a>
         </div>
       </div>
       <h1 style={style.title}>Réserver votre session</h1>
@@ -76,9 +96,24 @@ const Calendly = () => {
         </div>
       </div>
       <div style={style.links}>
-        <p style={style.link}>Mentions légales</p>
-        <p style={style.link}>Politique de confidentialité</p>
-        <p style={style.link}>Paramètres des cookies</p>
+        <a
+          href="https://origine-sounds-records.jimdosite.com/mentions-legales/"
+          style={style.link}
+        >
+          Mentions légales
+        </a>
+        <a
+          href="https://origine-sounds-records.jimdosite.com/politique-de-confidentialite/"
+          style={style.link}
+        >
+          Politique de confidentialité
+        </a>
+        <a
+          href="https://origine-sounds-records.jimdosite.com/parametres-des-cookies/"
+          style={style.link}
+        >
+          Paramètres des cookies
+        </a>
       </div>
     </div>
   );
@@ -112,7 +147,7 @@ const style = {
   navLink: { color: "#f1f1f1", textDecoration: "underline", margin: "0 1em" },
   title: { color: "#f1f1f1", fontSize: "3em" },
   calendly: {
-    maxHeight: "1000px",
+    maxHeight: "950px",
     overflow: "hidden",
   },
   footer: {
@@ -128,13 +163,16 @@ const style = {
     flexDirection: "row",
   },
   links: {
-    color: "#f1f1f1",
     margin: "0 5em",
     display: "flex",
     flexDirection: "row",
     justifyContent: "flex-start",
   },
-  link: { textDecoration: "underline", margin: ".5em" },
+  link: {
+    color: "#f1f1f1",
+    textDecoration: "underline",
+    margin: ".5em",
+  },
 };
 
 export default Calendly;
