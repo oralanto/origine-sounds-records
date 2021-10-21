@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialMediaIconsReact } from "social-media-icons-react";
 import { InlineWidget } from "react-calendly";
 import Logo from "../Assets/Images/logo-OSR.png";
 
@@ -24,10 +25,54 @@ const Calendly = () => {
       <div style={style.footer}>
         <img src={Logo} alt="logo" style={style.logoFooter} />
         <div style={style.socialMedia}>
-          <p>Facebook</p>
-          <p>Twitter</p>
-          <p>Instagram</p>
-          <p>Youtube</p>
+          <SocialMediaIconsReact
+            borderColor="rgba(0,0,0,0)"
+            borderWidth="5"
+            borderStyle="double"
+            icon="facebook"
+            iconColor="rgba(255,255,255,1)"
+            backgroundColor="rgba(26,233,187,0)"
+            iconSize="5"
+            roundness="50%"
+            url="https://www.facebook.com/originesounds.rec/"
+            size="30"
+          />
+          <SocialMediaIconsReact
+            borderColor="rgba(0,0,0,0)"
+            borderWidth="5"
+            borderStyle="double"
+            icon="twitter"
+            iconColor="rgba(255,255,255,1)"
+            backgroundColor="rgba(26,233,187,0)"
+            iconSize="5"
+            roundness="50%"
+            url="https://twitter.com/OrigineSounds?s=09"
+            size="30"
+          />
+          <SocialMediaIconsReact
+            borderColor="rgba(0,0,0,0)"
+            borderWidth="5"
+            borderStyle="double"
+            icon="instagram"
+            iconColor="rgba(255,255,255,1)"
+            backgroundColor="rgba(26,233,187,0)"
+            iconSize="5"
+            roundness="50%"
+            url="https://origine-sounds-records.jimdosite.com/"
+            size="30"
+          />
+          <SocialMediaIconsReact
+            borderColor="rgba(0,0,0,0)"
+            borderWidth="5"
+            borderStyle="double"
+            icon="youtube-play"
+            iconColor="rgba(255,255,255,1)"
+            backgroundColor="rgba(26,233,187,0)"
+            iconSize="5"
+            roundness="50%"
+            url="https://www.youtube.com/channel/UCDpcGNscmfQM3cGWtOlehpQ"
+            size="30"
+          />
         </div>
       </div>
       <div style={style.links}>
