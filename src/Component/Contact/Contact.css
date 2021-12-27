@@ -31,53 +31,33 @@
   margin: 1em auto;
   text-align: left;
   line-height: 1.5em;
-
 }
 
 .contact__infos__img {
   width: 50%;
 }
 
-/* Contact form  */
-
 .contact__form {
-  width: 90%;
-  margin: 3em auto;
-  border: 1px white solid;
+  height: 70vh;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .contact__form__title {
   font-size: 2.5em;
   width: 90%;
   margin: 1em auto;
 }
 
-.contact__form__form {
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-  margin: auto;
-
-  border: 1px white solid;
+.contact__form__text {
+  font-size: 1.2em;
+  width: 90%;
+  margin: 1em auto;
 }
 
-.contact__form__form__inputs {
-  width: 100%;
-  margin: auto;
-  display: flex;
-}
-.contact__form__form__inputs__input {
-  width: 50%;
-  margin: auto;
-}
-
-.contact__form__form__message {
-  width: 80%;
-  margin: auto;
-}
-
-.contact__form__form__message__input {
-  width: 500px;
-  height: 250px;
-  margin: auto;
+.contact__form__text__link {
+  color: white;
+  text-decoration: none;
+  text-decoration: underline;
 }

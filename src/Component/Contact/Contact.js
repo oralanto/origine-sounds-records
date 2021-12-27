@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Contact.css";
 import Desktop from "../../Assets/Images/Desktop.png";
-import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -22,8 +21,21 @@ const Contact = () => {
           className="contact__infos__img"
         />
       </div>
-      <div>
-        <ContactForm />
+      <div className="contact__form">
+        <h2 className="contact__form__title">
+          Vous souhaitez en savoir plus ?
+        </h2>
+        <p className="contact__form__text">
+          Contactez nous à cette adresse mail:{" "}
+          <a
+            target="_blank"
+            href="mailto:originesounds.rec@gmail.com"
+            rel="noreferrer"
+            className="contact__form__text__link"
+          >
+            originesounds.rec@gmail.com
+          </a>
+        </p>
       </div>
     </div>
   );
