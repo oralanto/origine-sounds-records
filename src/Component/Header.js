@@ -43,6 +43,8 @@ const Header = () => {
 const style = {
   header: {
     backgroundColor: "black",
+    position: "fixed",
+    top: "0",
     width: "100%",
   },
   navBar: { display: "flex" },

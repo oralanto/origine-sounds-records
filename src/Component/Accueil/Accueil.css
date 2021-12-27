@@ -1,6 +1,6 @@
 .accueil {
   height: 100vh;
-  background:url("../../../Assets/Images/background-accueil.jpeg");
+  background:url("../../Assets/Images/background-accueil.jpeg");
   background-repeat: no-repeat;
   background-size: fit;
   color: white;
