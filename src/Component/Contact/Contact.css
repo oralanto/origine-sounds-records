@@ -1,0 +1,83 @@
+.contact {
+  margin: 7em auto 2em;
+  width: 90%;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__infos {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__infos__description {
+  width: 50%;
+  padding: 2em;
+  align-self: center;
+}
+
+.contact__infos__description__title {
+  text-align: left;
+  font-size: 2.5em;
+  width: 90%;
+  margin: 1em auto;
+}
+
+.contact__infos__description__text {
+  font-size: 1.2em;
+  width: 90%;
+  margin: 1em auto;
+  text-align: left;
+  line-height: 1.5em;
+
+}
+
+.contact__infos__img {
+  width: 50%;
+}
+
+/* Contact form  */
+
+.contact__form {
+  width: 90%;
+  margin: 3em auto;
+  border: 1px white solid;
+}
+
+.contact__form__title {
+  font-size: 2.5em;
+  width: 90%;
+  margin: 1em auto;
+}
+
+.contact__form__form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+
+  border: 1px white solid;
+}
+
+.contact__form__form__inputs {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+.contact__form__form__inputs__input {
+  width: 50%;
+  margin: auto;
+}
+
+.contact__form__form__message {
+  width: 80%;
+  margin: auto;
+}
+
+.contact__form__form__message__input {
+  width: 500px;
+  height: 250px;
+  margin: auto;
+}
