@@ -68,6 +68,20 @@ const Services = () => {
           );
         })}
       </div>
+      <div className="services__infos">
+        <p className="services__infos__title">
+          En quoi sommes-nous différents des autres ?
+        </p>
+        <p className="services__infos__text">
+          Fiers de vous recevoir dans nos locaux de 80m2 entièrement dédiés à la
+          production de votre morceau, nous vous offrons professionnalisme et
+          bonne ambiance garantie ! Notre équipe jeune et dynamique est prête a
+          vous recevoir et donner le maximum pour satisfaire vos attentes. Il
+          est toujours plus facile de faire du bon travail lorsque l'on croit en
+          ce que l'on fait. C'est la raison pour laquelle nous nous engageons à
+          aider davantage de personnes, jour après jour.
+        </p>
+      </div>
     </div>
   );
 };
