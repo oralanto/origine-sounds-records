@@ -1,0 +1,14 @@
+.tarifs {
+  margin: 6em auto 2em;
+  width: 90%;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarifs__title {
+  font-size: 3em;
+  margin: 2em 0 1em;
+  align-self: flex-start;
+}

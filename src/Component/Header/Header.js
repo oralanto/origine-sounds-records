@@ -21,10 +21,7 @@ const Header = () => {
           <a href="/" className="header__navBar__nav__link">
             Accueil
           </a>
-          <a
-            href="https://origine-sounds-records.jimdosite.com/tarifs/"
-            className="header__navBar__nav__link"
-          >
+          <a href="/tarifs" className="header__navBar__nav__link">
             Tarifs
           </a>
           <a href="/reservation" className="header__navBar__nav__link">

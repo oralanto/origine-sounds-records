@@ -6,6 +6,7 @@ import Header from "./Component/Header/Header";
 import Footer from "./Component/Footer/Footer";
 import Homepage from "./Component/Homepage/Homepage";
 import Reservation from "./Component/Reservation/Reservation";
+import Tarifs from "./Component/Tarifs/Tarifs";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route exact path="/reservation" component={Reservation} />
+          <Route exact path="/tarifs" component={Tarifs} />
         </Switch>
       </Router>
       <Footer />
