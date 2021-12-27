@@ -1,0 +1,55 @@
+.reservationInfo {
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  color: white;
+}
+
+.reservationInfo__title {
+  font-size: 2.5em;
+  width: 90%;
+  margin: 1em auto;
+}
+
+.reservationInfo__img {
+  width: 30%;
+  margin: 2em auto;
+}
+
+.reservationInfo__text {
+  font-size: 1.2em;
+  width: 50%;
+  margin: 1em auto;
+  line-height: 1.5em;
+}
+
+.reservationInfo__infos {
+  width: 100%;
+  min-height: 500px;
+  background-image: url("../../Assets/Images/Microphone3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.reservationInfo__infos__items {
+  width: 60%;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.reservationInfo__infos__items__title {
+  font-size: 2.5em;
+  width: 90%;
+  margin: 1em auto;
+}
+
+.reservationInfo__infos__items__text {
+  font-size: 1.2em;
+  width: 90%;
+  margin: 1em auto;
+  line-height: 1.5em;
+}
