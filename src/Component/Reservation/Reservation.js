@@ -7,9 +7,10 @@ const Reservation = () => {
   return (
     <div className="reservation">
       <h1 className="reservation__title">Réserver votre session</h1>
-      <div className="reservation__calendly">
-        <InlineWidget url="https://calendly.com/originesounds-rec" />
-      </div>
+      <InlineWidget
+        url="https://calendly.com/originesounds-rec"
+        styles={{ height: "1000px", width: "100%" }}
+      />
     </div>
   );
 };

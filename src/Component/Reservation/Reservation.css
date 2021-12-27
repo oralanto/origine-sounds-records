@@ -1,5 +1,7 @@
 .reservation {
   min-height: 100vh;
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   color: white;
@@ -7,6 +9,17 @@
 
 .reservation__title {
   font-size: 3em;
-  border: 1px solid white;
-  height: 300px;
+  margin-top: 3em;
 }
+
+.calendly-badge-widget {
+  left: 50%;
+  margin-left: -100px;
+}
+
+/* @media (max-width: 900px){
+  .reservation__title {
+    font-size: 1em;
+    margin-top: 7em;
+  }
+} */
