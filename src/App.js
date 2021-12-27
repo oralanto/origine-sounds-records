@@ -3,19 +3,21 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 import Header from "./Component/Header";
+import Footer from "./Component/Footer/Footer";
 import Homepage from "./Component/Homepage/Homepage";
-import Calendly from "./Component/Calendly";
+import Reservation from "./Component/Reservation/Reservation";
 
 const App = () => {
   return (
     <div className="App">
+      <Header />
       <Router>
-        <Route path="/" component={Header} />
         <Switch>
-          <Route exact path="/homepage" component={Homepage} />
-          <Route exact path="/reservation" component={Calendly} />
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/reservation" component={Reservation} />
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 };
