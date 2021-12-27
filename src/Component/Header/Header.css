@@ -1,0 +1,41 @@
+.header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__navBar {
+  display: flex
+}
+
+.header__navBar__logoLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header__navBar__logoLabel__logo {
+  max-width: 100px;
+  height: auto;
+  margin: 1em;
+}
+
+.header__navBar__logoLabel__label {
+  color: #f1f1f1;
+  margin: 1em;
+  justify-content: center
+}
+
+.header__navBar__nav {
+  display: flex;
+  flex-grow: 3;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header__navBar__nav__link {
+  color: #f1f1f1;
+  text-decoration: underline;
+  margin: 0 1em }
