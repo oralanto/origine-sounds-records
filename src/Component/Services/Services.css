@@ -28,6 +28,8 @@
   margin-bottom: 3em;
   display: flex;
   flex-direction: column;
+  animation-duration: 5s;
+  animation-name: opacity;
 }
 
 .services__list__item__image {
@@ -86,6 +88,17 @@
   width: 90%;
   margin: 1em auto;
   line-height: 1.5em;
+}
+
+/* Animation  */
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Responsive */

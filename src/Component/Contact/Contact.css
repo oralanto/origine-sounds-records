@@ -10,6 +10,7 @@
 .contact__infos {
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .contact__infos__description {
