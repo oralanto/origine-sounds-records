@@ -17,6 +17,8 @@
   margin-left: -100px;
 }
 
+/* Responsive */
+
 @media (max-width: 950px) {
   .reservation__title {
     font-size: 3em;

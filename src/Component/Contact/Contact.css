@@ -1,6 +1,6 @@
 .contact {
   margin: 7em auto 2em;
-  width: 90%;
+  width: 100%;
   min-height: 100vh;
   color: white;
   display: flex;
@@ -60,4 +60,24 @@
   color: white;
   text-decoration: none;
   text-decoration: underline;
+}
+
+/* Responsive */
+
+@media (max-width: 950px) {
+  .contact__infos {
+    flex-direction: column-reverse;
+    border-bottom: 0.2px solid grey;
+  }
+  .contact__infos__img {
+    width: 90%;
+    margin: auto;
+  }
+  .contact__infos__description {
+    width: 90%;
+    margin: auto;
+  }
+  .contact__infos__description__text {
+    width: 100%;
+  }
 }
