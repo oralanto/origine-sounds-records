@@ -29,6 +29,7 @@
 
 .location__infos__item {
   width: 30%;
+  word-break: break-all;
 }
 
 .location__infos__item__title {
