@@ -7,7 +7,6 @@
   flex-direction: column;
 }
 
-
 .location__title {
   font-size: 2.5em;
   align-self: flex-start;
@@ -18,7 +17,6 @@
   width: 90%;
   margin: auto;
   height: auto;
-  border: 1px solid white;
 }
 
 .location__infos {
@@ -43,4 +41,19 @@
   font-size: 1.3em;
   text-align: left;
   line-height: 1.5em;
+}
+
+/* Responsive */
+
+@media (max-width: 950px) {
+  .location__map {
+    width: 100%;
+  }
+  .location__infos {
+    display: flex;
+    flex-direction: column;
+  }
+  .location__infos__item {
+    width: 100%;
+  }
 }

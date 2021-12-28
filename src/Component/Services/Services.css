@@ -32,7 +32,7 @@
   margin: 50%;
   height: 400px;
 }
-.services__list__item__infos{
+.services__list__item__infos {
   height: 50%;
   text-align: left;
   display: flex;
@@ -51,13 +51,15 @@
 
 .services__list__item__button {
   width: 50%;
-  padding: .3em;
-  margin: 1em .5em;
+  padding: 0.3em;
+  margin: 1em 0.5em;
   font-size: 1.2em;
   line-height: 1.5em;
 }
 
-.services__list__item__image, .services__list__item__title, .services__list__item__text {
+.services__list__item__image,
+.services__list__item__title,
+.services__list__item__text {
   margin: 0.5em;
 }
 
@@ -81,4 +83,26 @@
   width: 90%;
   margin: 1em auto;
   line-height: 1.5em;
+}
+
+/* Responsive */
+
+@media (max-width: 950px) {
+  .services {
+    width: 100%;
+    border-bottom: 0.1px solid grey;
+  }
+  .services__list {
+    border-bottom: 0.1px solid grey;
+  }
+  .services__list__item {
+    width: 100%;
+    margin: auto;
+  }
+  .services__infos {
+    width: 100%;
+  }
+  .services__infos__text {
+    width: 90%;
+  }
 }

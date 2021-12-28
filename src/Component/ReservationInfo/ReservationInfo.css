@@ -53,3 +53,18 @@
   margin: 1em auto;
   line-height: 1.5em;
 }
+
+/* Responsive */
+
+@media (max-width: 950px) {
+  .reservationInfo__img {
+    width: 70%;
+  }
+  .reservationInfo__text {
+    width: 90%;
+  }
+  .reservationInfo__infos__items {
+    width: 100%;
+    border: none;
+  }
+}

@@ -34,3 +34,15 @@
 .accueil__text__items__text {
   font-size: 1.5em;
 }
+
+/* Responsive */
+
+@media (max-width: 950px) {
+.accueil__text__items__title {
+    font-size: 2.5em;
+  }
+
+.accueil__text__items__subtitle, .accueil__text__items__text {
+    font-size: 1.2em;
+  }
+}

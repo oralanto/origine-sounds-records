@@ -3,10 +3,12 @@
   position: fixed;
   top: 0;
   width: 100%;
+  color: #f1f1f1;
 }
 
 .header__navBar {
-  display: flex
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__navBar__logoLabel {
@@ -23,9 +25,8 @@
 }
 
 .header__navBar__logoLabel__label {
-  color: #f1f1f1;
   margin: 1em;
-  justify-content: center
+  justify-content: center;
 }
 
 .header__navBar__nav {
@@ -36,6 +37,34 @@
 }
 
 .header__navBar__nav__link {
-  color: #f1f1f1;
   text-decoration: underline;
-  margin: 0 1em }
+  margin: 0 1em;
+  color: #f1f1f1;
+}
+
+.menu__burger {
+  width: auto;
+  margin: auto;
+}
+
+.disabled {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .header__navBar__logoLabel__logo {
+    max-width: 50px;
+    margin: 0.5em;
+  }
+  .header__navBar__logoLabel__label {
+    margin: 0;
+  }
+
+  .header__navBar__nav__link {
+    display: none;
+  }
+
+  .disabled {
+    display: flex;
+  }
+}
