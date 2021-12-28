@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Services.css";
 
@@ -61,9 +62,15 @@ const Services = () => {
                 src={item.img}
                 alt={item.title}
               />
-              <h2 className="services__list__item__title">{item.title}</h2>
-              <p className="services__list__item__text">{item.info}</p>
-              {/* add button to /tarif */}
+              <div className="services__list__item__infos">
+                <h2 className="services__list__item__title">{item.title}</h2>
+                <p className="services__list__item__text">{item.info}</p>
+                <Link to="/tarifs">
+                  <button className="services__list__item__button">
+                    En savoir plus
+                  </button>
+                </Link>
+              </div>
             </div>
           );
         })}

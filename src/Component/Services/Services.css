@@ -28,18 +28,32 @@
 }
 
 .services__list__item__image {
-  max-width: 100%;
-
+  width: 100%;
+  margin: 50%;
+  height: 400px;
+}
+.services__list__item__infos{
+  height: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .services__list__item__title {
   font-size: 1.7em;
-  align-self: flex-start;
 }
 
 .services__list__item__text {
   font-size: 1.2em;
-  text-align: left;
+  line-height: 1.5em;
+}
+
+.services__list__item__button {
+  width: 50%;
+  padding: .3em;
+  margin: 1em .5em;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 
