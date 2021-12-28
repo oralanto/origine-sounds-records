@@ -2,6 +2,7 @@ import React from "react";
 import { InlineWidget } from "react-calendly";
 
 import "./Reservation.css";
+import Location from "../Location/Location";
 
 const Reservation = () => {
   return (
@@ -11,6 +12,7 @@ const Reservation = () => {
         url="https://calendly.com/originesounds-rec"
         styles={{ height: "1000px", width: "100%" }}
       />
+      <Location />
     </div>
   );
 };

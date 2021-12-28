@@ -9,21 +9,24 @@
 
 
 .location__title {
-  font-size: 2em;
+  font-size: 2.5em;
   align-self: flex-start;
   margin-bottom: 2em;
 }
 
 .location__map {
-  width: 100%;
-  height: 400px;
+  width: 90%;
+  margin: auto;
+  height: auto;
   border: 1px solid white;
 }
 
 .location__infos {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
 }
 
 .location__infos__item {
@@ -37,7 +40,7 @@
 }
 
 .location__infos__item__text {
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: left;
   line-height: 1.5em;
 }
