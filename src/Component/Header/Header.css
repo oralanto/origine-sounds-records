@@ -54,13 +54,17 @@
 /* Responsive */
 
 @media (max-width: 950px) {
+  .header {
+    height: 60px;
+  }
   .header__navBar__logoLabel__logo {
-    max-width: 50px;
+    max-width: 70px;
     margin: 0.5em;
   }
   .header__navBar__logoLabel__label {
     width: 100%;
     margin: auto;
+    font-size: 1.2em;
   }
   .header__navBar__nav__link {
     display: none;

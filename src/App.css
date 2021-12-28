@@ -3,10 +3,17 @@
   font-family: "Montserrat", sans-serif;
 }
 
+#App {
+  display: none;
+}
+
 /* Responsive */
 
 @media (max-width: 950px) {
   /* Menu sidebar  */
+  #App {
+    display: flex;
+  }
 
   .bm-item {
     display: inline-block;
@@ -26,8 +33,8 @@
     position: fixed;
     width: 25px;
     height: 20px;
-    right: 15px;
-    top: 15px;
+    right: 12px;
+    top: 19px;
   }
 
   /* Color/shape of burger icon bars */

@@ -13,9 +13,11 @@ import LegalMentions from "./Component/LegalMentions/LegalMentions";
 
 const App = () => {
   return (
-    <div className="App" id="App">
+    <div className="App">
       <Header />
-      <SideBar outerContainerId={"App"} />
+      <div id="App">
+        <SideBar outerContainerId={"App"} />
+      </div>
       <Router>
         <Switch>
           <Route exact path="/" component={Homepage} />
