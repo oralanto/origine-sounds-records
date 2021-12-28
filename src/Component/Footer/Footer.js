@@ -17,10 +17,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__links">
-        <a
-          href="https://origine-sounds-records.jimdosite.com/mentions-legales/"
-          className="footer__links__link"
-        >
+        <a href="/mentions-legales" className="footer__links__link">
           Mentions légales
         </a>
         <a

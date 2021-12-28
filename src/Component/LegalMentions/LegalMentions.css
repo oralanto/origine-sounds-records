@@ -1,0 +1,29 @@
+.legalMentions {
+  margin: 5em auto;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.legalMentions__infos, .legalMentions__credit {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.legalMentions__infos__title {
+  font-size: 3em;
+  margin: 2em 0 1em;
+  align-self: flex-start;
+}
+
+.legalMentions__infos__text, .legalMentions__credit__text {
+  font-size: 1.2em;
+  text-align: left;
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
