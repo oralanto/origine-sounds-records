@@ -37,9 +37,13 @@
 }
 
 .header__navBar__nav__link {
-  text-decoration: underline;
+  text-decoration: none;
   margin: 0 1em;
+  padding: 0.2em 0;
   color: #f1f1f1;
+}
+.header__navBar__nav__link:hover {
+  border-bottom: #f1f1f1 solid 2px;
 }
 
 .menu__burger {

@@ -1,11 +1,12 @@
 .accueil {
   height: 100vh;
-  background:url("../../Assets/Images/background-accueil.jpeg");
+  background: url("../../Assets/Images/background-accueil.jpeg");
   background-repeat: no-repeat;
   background-size: fit;
   color: white;
 }
-.accueil__text, .accueil__text__items{
+.accueil__text,
+.accueil__text__items {
   width: 100%;
   height: 100%;
   display: flex;
@@ -17,14 +18,19 @@
 .accueil__text__items {
   height: 30%;
   justify-content: space-around;
+  overflow: hidden;
 }
 
 .accueil__text__items__title {
   font-size: 4em;
+  animation-duration: 2s;
+  animation-name: slideFromRight;
 }
 
 .accueil__text__items__subtitle {
   font-size: 1.7em;
+  animation-duration: 2s;
+  animation-name: slideFromLeft;
 }
 
 .accueil__text__items__subtitle__span {
@@ -33,16 +39,45 @@
 
 .accueil__text__items__text {
   font-size: 1.5em;
+  animation-duration: 2s;
+  animation-name: slideFromRight;
+}
+
+/* Animation */
+
+@keyframes slideFromRight {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
 }
 
 /* Responsive */
 
 @media (max-width: 950px) {
-.accueil__text__items__title {
+  .accueil__text__items__title {
     font-size: 2.5em;
   }
 
-.accueil__text__items__subtitle, .accueil__text__items__text {
+  .accueil__text__items__subtitle,
+  .accueil__text__items__text {
     font-size: 1.2em;
   }
 }
