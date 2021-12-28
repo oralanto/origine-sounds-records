@@ -51,19 +51,20 @@
   display: none;
 }
 
+/* Responsive */
+
 @media (max-width: 950px) {
   .header__navBar__logoLabel__logo {
     max-width: 50px;
     margin: 0.5em;
   }
   .header__navBar__logoLabel__label {
-    margin: 0;
+    width: 100%;
+    margin: auto;
   }
-
   .header__navBar__nav__link {
     display: none;
   }
-
   .disabled {
     display: flex;
   }

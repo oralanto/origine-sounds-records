@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 import Header from "./Component/Header/Header";
+import SideBar from "./Component/Header/SideBar";
 import Footer from "./Component/Footer/Footer";
 import Homepage from "./Component/Homepage/Homepage";
 import Reservation from "./Component/Reservation/Reservation";
@@ -12,8 +13,9 @@ import LegalMentions from "./Component/LegalMentions/LegalMentions";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" id="App">
       <Header />
+      <SideBar outerContainerId={"App"} />
       <Router>
         <Switch>
           <Route exact path="/" component={Homepage} />

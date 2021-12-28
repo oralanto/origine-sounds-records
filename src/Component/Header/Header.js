@@ -17,9 +17,6 @@ const Header = () => {
             Origine Sounds Records
           </p>
         </div>
-        {/* Toggle menu */}
-        <div className="menu__burger disabled">x</div>
-        {/* Nav bar */}
         <div className="header__navBar__nav">
           <a href="/" className="header__navBar__nav__link">
             Accueil
