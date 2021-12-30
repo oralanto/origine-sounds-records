@@ -24,7 +24,7 @@ const Footer = () => {
         <a href="/mentions-legales" className="footer__links__link">
           Mentions légales
         </a>
-        <a
+        {/* <a
           href="https://origine-sounds-records.jimdosite.com/politique-de-confidentialite/"
           className="footer__links__link"
         >
@@ -35,7 +35,7 @@ const Footer = () => {
           className="footer__links__link"
         >
           Paramètres des cookies
-        </a>
+        </a> */}
       </div>
     </div>
   );
