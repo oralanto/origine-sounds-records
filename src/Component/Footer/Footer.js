@@ -8,7 +8,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer__infos">
-        <img src={Logo} alt="logo" className="footer__infos__logo" />
+        <img
+          src={Logo}
+          alt="Origine sounds records logo"
+          className="footer__infos__logo"
+        />
         <div className="footer__infos__socialMedias">
           <SocialIcon url="https://www.facebook.com/originesounds.rec/" />
           <SocialIcon url="https://twitter.com/OrigineSounds?s=09" />

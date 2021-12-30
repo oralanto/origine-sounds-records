@@ -9,7 +9,7 @@ const ReservationInfo = () => {
       <h2 className="reservationInfo__title">Origine Sounds Records</h2>
       <img
         src={Microphone2}
-        alt="Microphone"
+        alt="Microphone studio musique"
         className="reservationInfo__img"
       />
       <p className="reservationInfo__text">
@@ -30,8 +30,8 @@ const ReservationInfo = () => {
             Nos vies n'ont jamais été aussi remplies. Il est même parfois
             difficile de tout accomplir en une seule journée. Nous en avons
             conscience, c'est pourquoi sur notre site, vous pouvez directement
-            prendre rendez-vous quand vous en avez envie : à toute heure, tous
-            les jours de la semaine, 365 jours par an.
+            prendre <strong>rendez-vous</strong> quand vous en avez envie : à
+            toute heure, tous les jours de la semaine, 365 jours par an.
           </p>
         </div>
       </div>

@@ -7,7 +7,11 @@ const Location = () => {
   return (
     <div className="location">
       <h2 className="location__title">Où nous trouver ?</h2>
-      <img className="location__map" src={Map} alt="Location" />
+      <img
+        className="location__map"
+        src={Map}
+        alt="map localisation studio saint julien en genevois"
+      />
       <div className="location__infos">
         <div className="location__infos__item">
           <p className="location__infos__item__title">Contact</p>

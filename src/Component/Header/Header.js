@@ -10,7 +10,7 @@ const Header = () => {
         <div className="header__navBar__logoLabel">
           <img
             src={Logo}
-            alt="logo"
+            alt="Origine sounds records logo"
             className="header__navBar__logoLabel__logo"
           />
           <p className="header__navBar__logoLabel__label">

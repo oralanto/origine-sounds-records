@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
         <img
           src={Desktop}
-          alt="Studio desktop"
+          alt="Console mixage studio d'enregistrement musique"
           className="contact__infos__img"
         />
       </div>

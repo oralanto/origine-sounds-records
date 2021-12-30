@@ -28,7 +28,7 @@
   margin-bottom: 3em;
   display: flex;
   flex-direction: column;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-name: opacity;
 }
 
