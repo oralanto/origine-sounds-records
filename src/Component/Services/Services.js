@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "./Services.css";
+import YoutubeEmbed from "../YoutubeEmbed/YoutubeEmbed";
+
+// Imported images =
 
 import Microphone from "../../Assets/Images/Microphone.png";
 import Mixage from "../../Assets/Images/Mixage.png";
@@ -10,6 +13,8 @@ import Topline from "../../Assets/Images/Topline.png";
 import DigitalMarketing from "../../Assets/Images/Digital-Marketing.png";
 import Cover from "../../Assets/Images/Cover.png";
 import Beatmaking from "../../Assets/Images/Beatmaking.png";
+
+// Services array items
 
 const Items = [
   {
@@ -56,6 +61,27 @@ const Items = [
   },
 ];
 
+// Array videos items
+
+const videos = [
+  {
+    title: "O'malley - Code PIN",
+    id: "b0nL68t_u0U",
+  },
+  {
+    title: "SUEJO x 2D STJ - Laisse Tomber",
+    id: "P6iLmrqj6gc",
+  },
+  {
+    title: "SUEJO - Carolina",
+    id: "Amqb4tEdI0k",
+  },
+  {
+    title: "SUEJO - Gold Diggy (Freestyle UBBER HITS #4",
+    id: "xGIy5lCsmdw",
+  },
+];
+
 const Services = () => {
   return (
     <div className="services">
@@ -63,7 +89,7 @@ const Services = () => {
       <div className="services__list">
         {Items.map((item) => {
           return (
-            <div className="services__list__item">
+            <div key={item.index} className="services__list__item">
               <img
                 className="services__list__item__image"
                 src={item.img}
@@ -81,6 +107,21 @@ const Services = () => {
             </div>
           );
         })}
+      </div>
+      <div className="services__videos">
+        <h2 className="services__videos__title">Nos créations</h2>
+        <div className="services__videos__list">
+          {videos.map((video) => {
+            return (
+              <div key={video.index} className="services__videos__list__item">
+                <h3 className="services__videos__list__item__title">
+                  {video.title}
+                </h3>
+                <YoutubeEmbed embedId={video.id} />
+              </div>
+            );
+          })}
+        </div>
       </div>
       <div className="services__infos">
         <p className="services__infos__title">
