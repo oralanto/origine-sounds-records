@@ -65,20 +65,24 @@ const Items = [
 
 const videos = [
   {
-    title: "O'malley - Code PIN",
-    id: "b0nL68t_u0U",
+    title: "Weedy - Fall In Love",
+    id: "BJrg-q39_zU",
   },
   {
     title: "SUEJO x 2D STJ - Laisse Tomber",
     id: "P6iLmrqj6gc",
   },
   {
-    title: "SUEJO - Carolina",
-    id: "Amqb4tEdI0k",
+    title: "2D STJ - Slow motion",
+    id: "cgFJLq1KW80",
   },
   {
-    title: "SUEJO - Gold Diggy (Freestyle UBBER HITS #4",
-    id: "xGIy5lCsmdw",
+    title: "O'malley - Code PIN",
+    id: "b0nL68t_u0U",
+  },
+  {
+    title: "Bayaik - OMG",
+    id: "x8Xq007ecHQ",
   },
 ];
 
