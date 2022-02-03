@@ -10,14 +10,15 @@ const Tarifs = () => {
   useEffect(() => {
     setItems(services);
   }, []);
+
   return (
     <div className="tarifs">
       <h1 className="tarifs__title">Tarifs</h1>
       <div className="services__list">
         {items ? (
-          items.map((item) => {
+          items.map((item, index) => {
             return (
-              <div className="services__list__item">
+              <div key={index} className="services__list__item">
                 <img
                   className="services__list__item__image"
                   src={item.img}
@@ -25,8 +26,8 @@ const Tarifs = () => {
                 />
                 <h2 className="services__list__item__title">{item.title}</h2>
                 <div className="services__list__item__text">
-                  {item.price.map((obj) => (
-                    <p>{obj}</p>
+                  {item.price.map((obj, index) => (
+                    <p key={index}>{obj}</p>
                   ))}
                 </div>
               </div>
