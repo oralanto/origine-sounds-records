@@ -22,9 +22,9 @@ const Services = () => {
       <h2 className="services__title">Nos services</h2>
       <div className="services__list">
         {items ? (
-          items.map((item) => {
+          items.map((item, index) => {
             return (
-              <div key={item.index} className="services__list__item">
+              <div key={index} className="services__list__item">
                 <img
                   className="services__list__item__image"
                   src={item.img}
@@ -50,9 +50,9 @@ const Services = () => {
         <h2 className="services__videos__title">Nos créations</h2>
         <div className="services__videos__list">
           {creations ? (
-            creations.map((video) => {
+            creations.map((video, index) => {
               return (
-                <div key={video.index} className="services__videos__list__item">
+                <div key={index} className="services__videos__list__item">
                   <h3 className="services__videos__list__item__title">
                     {video.title}
                   </h3>
