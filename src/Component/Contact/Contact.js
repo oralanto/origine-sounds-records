@@ -70,7 +70,7 @@ const Contact = () => {
           <textarea
             name="message"
             type="text"
-            placeholder="Veuillez indiquer votre demande.."
+            placeholder="Votre message..."
             className="contact__containerForm__form__textarea"
             required
           />
