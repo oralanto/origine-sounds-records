@@ -42,29 +42,41 @@
   animation-name: opacity;
 }
 
-.contact__form {
+.contact__containerForm {
   height: 70vh;
-  margin-top: 3em;
+  width: 90%;
+  margin: 3em auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__containerForm__form {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.contact__form__title {
-  font-size: 2.5em;
-  width: 90%;
-  margin: 1em auto;
+
+.contact__containerForm__form__input,
+.contact__containerForm__form__textarea,
+.contact__containerForm__form__button {
+  border: 1px black solid;
+  border-bottom: none;
+  background-color: whitesmoke;
+  min-height: 1rem;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: bold;
 }
 
-.contact__form__text {
-  font-size: 1.2em;
-  width: 90%;
-  margin: 1em auto;
+.contact__containerForm__form__textarea {
+  min-height: 20em;
 }
 
-.contact__form__text__link {
-  color: white;
-  text-decoration: none;
-  text-decoration: underline;
+.contact__containerForm__form__input:hover,
+.contact__containerForm__form__textarea:hover,
+.contact__containerForm__form__button:hover {
+  background-color: rgb(245, 240, 232);
 }
 
 /* Animation */
