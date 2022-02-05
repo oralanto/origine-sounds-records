@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import emailjs from "emailjs-com";
-import apiKeys from "../../apikeys";
 
 import "./Contact.css";
-import Desktop from "../../Assets/Images/Desktop.png";
+import { ContactImg } from "../../Data/data";
+
+const apikeys = {
+  USER_ID: "user_MQL0rObv6P5yFfgsdJtv1",
+  TEMPLATE_ID: "template_9gtysyh",
+  SERVICE_ID: "service_wjeew6p",
+};
 
 const Contact = () => {
+  const [image, setImage] = useState();
+  const [apiKeys, setApiKeys] = useState();
+
+  useEffect(() => {
+    setImage(ContactImg);
+    setApiKeys(apikeys);
+  }, []);
+
   const onSubmit = (e) => {
-    console.log("onSubmit", e.target);
     e.preventDefault();
     emailjs
       .sendForm(
@@ -38,11 +50,15 @@ const Contact = () => {
             notre formulaire de contact !
           </p>
         </div>
-        <img
-          src={Desktop}
-          alt="Console mixage studio d'enregistrement musique"
-          className="contact__infos__img"
-        />
+        {image ? (
+          <img
+            src={image}
+            alt="Console mixage studio d'enregistrement musique"
+            className="contact__infos__img"
+          />
+        ) : (
+          <p>Loading</p>
+        )}
       </div>
       <div className="contact__containerForm">
         <form className="contact__containerForm__form" onSubmit={onSubmit}>

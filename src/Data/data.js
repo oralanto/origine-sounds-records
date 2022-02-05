@@ -5,6 +5,9 @@ import Topline from "../Assets/Images/Topline.png";
 import DigitalMarketing from "../Assets/Images/Digital-Marketing.png";
 import Cover from "../Assets/Images/Cover.png";
 import Beatmaking from "../Assets/Images/Beatmaking.png";
+import Desktop from "../Assets/Images/Desktop.png";
+
+export const ContactImg = Desktop;
 
 export const services = [
   {
